@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GaussX</title>
+  <meta name="description" content="Plataforma acadêmica do GaussX para encontros, materiais e organização dos estudos em Física e Matemática." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-left" aria-hidden="true"></div>
+  <div class="ambient ambient-right" aria-hidden="true"></div>
+  <div class="ambient ambient-top" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-intro">
+        <div class="logo-shell intro-step">
+          <div class="logo-frame">
+            <img src="assets/logo-gaussx.svg" alt="Logo do GaussX" class="logo" />
+          </div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow intro-step">Física • Matemática</p>
+          <h1 class="intro-step">GAUSSX</h1>
+          <p class="subtitle intro-step">
+            Plataforma acadêmica para encontros, materiais e organização dos estudos.
+          </p>
+        </div>
+      </div>
+
+      <button class="scroll-indicator intro-step" type="button" aria-label="Ir para os encontros">
+        <span></span>
+      </button>
+    </section>
+
+    <section class="meetings-wrap">
+      <div class="section-head reveal reveal-soft">
+        <p class="section-label">Encontros</p>
+        <h2>Organização semanal do projeto</h2>
+        <p class="section-text">
+          Quartas-feiras, das 13h30 às 15h10, com foco em aprofundamento teórico, resolução de exercícios e evolução contínua.
+        </p>
+      </div>
+
+      <section id="meeting-list" class="meetings"></section>
+    </section>
+  </main>
+</body>
+</html>
