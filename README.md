@@ -26,7 +26,8 @@ O GaussX foi estruturado para:
     ├── styles.css
     ├── script.js
     └── assets/
-        └── logo-gaussx.svg
+        ├── logo-gaussx.svg
+        └── logo-gaussx_true-g_converted
 ```
 
 ## Organização dos encontros
